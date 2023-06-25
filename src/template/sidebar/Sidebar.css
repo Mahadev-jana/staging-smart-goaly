@@ -1,0 +1,81 @@
+#sidenavmenu {
+    display: none;
+    height: 100%;
+    width: 310px;
+    position: fixed;
+    z-index: 1;
+}
+.sidenav {
+    background-color: #4d0653;
+    width: 280px;
+    height: 100%;
+    overflow-x: hidden;
+}
+.sidenav .sidenav-header {
+    text-align: center;
+    background-color: #a8d5b3;
+}
+.sidenav .sidenav-header img {
+    width: 60px;
+}
+.sidenav .sidenav-header .closebtn {
+    float: right;
+    font-size: 36px;
+}
+.sidenav ul {
+    padding: 0;
+}
+.sidenav ul li {
+    border-bottom: 1px solid #0f7b30;
+    padding: 5px 0;
+}
+.sidenav ul li:last-child {
+    border-bottom: 0;
+}
+.sidenav ul li:hover {
+    background-color: #2aa45b;
+}
+.sidenav ul li img {
+    width: 25px;
+    height: 25px;
+    margin-right: 1em;
+}
+.sidenav ul li a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 11pt;
+    color: white;
+    display: block;
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.sidenav #language {
+    /* float: right;
+    margin-right: 1em; */
+    margin:40px
+}
+
+/* menu */
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+.menu-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 .5em;
+}
+.menu a {text-align: center}
+.menu-link a img {
+    width: 80%;
+    margin-bottom: .5em;
+}
+.wrapper {
+    margin: 0 auto;
+    max-width: 520px;
+    /* height: 100vh; */
+    background-color: whitesmoke;
+}

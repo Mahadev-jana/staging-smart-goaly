@@ -1,0 +1,125 @@
+.btn-cta-premium {
+        color: grey;
+        display: inline-block;
+        padding: 0.75em 1em;
+        min-width: 30% !important;
+        text-align: center;
+        background-color: white;
+        border: 1px solid #D6CED9;
+    }
+
+    .btn-cta-premium.active {
+        background-color: #159b3e;
+        color: white;
+        border: 1px solid #159b3e;
+    }
+
+    .min-gutter {
+        margin-right: -7.5px;
+        margin-left: -7.5px;
+    }
+
+    .min-gutter > [class*='col-'] {
+        padding-right: 7.5px;
+        padding-left: 7.5px;
+    }
+
+    /* back button */
+    .back-btn {
+        padding: 15px 20px;
+        background-color: #9c25a8;
+    }
+    .back-btn a {
+        display: inline-flex;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+    }
+    .back-btn a img {
+        margin-right: .5em;
+    }
+
+    /* detail match custom */
+    .detail-match-header {
+        color: #333;
+        background-color: transparent;
+    }
+    .detail-match-header .sec-3 .card table {
+        color: #fff;
+    }
+
+    /* match stats */
+    .detail-match-stats-group {
+        margin: 15px 0;
+    }
+    .detail-match-stats-group h3 {
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 15px;
+        margin-top: 0;
+        text-transform: uppercase;
+        position: relative;
+    }
+    .detail-match-stats-group h3::before {
+        content: '';
+        position: absolute;
+        height: 5px;
+        display: block;
+        border-top: 1px solid black;
+        top: 50%;
+        left: 0;
+        right: 0;
+    }
+    .detail-match-stats-group h3 span {
+        background-color: whitesmoke;
+        position: relative;
+        z-index: 99;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .detail-match-stats-item {
+        margin-bottom: 10px;
+    }
+    .detail-match-stats-item-point {
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+    .detail-match-stats-item-point .point-left {
+        font-weight: bold;
+        text-align: left;
+    }
+    .detail-match-stats-item-point .point-center {
+        text-align: center;
+    }
+    .detail-match-stats-item-point .point-right {
+        font-weight: bold;
+        text-align: right;
+    }
+    .detail-match-stats-item .progress {
+        border-radius: 50rem;
+        background-color: #1BBC1B;
+        height: 10px;
+    }
+    .detail-match-stats-item .progress .progress-bar {
+        background: #4dd163;
+        border-right: 5px solid white;
+    }
+
+    .premium {
+        -webkit-mask-image: linear-gradient(to top,rgba(0, 0, 0, 0) -5%,rgba(0, 0, 0, 1) 50%);
+        max-height: 500px;
+        overflow-y: hidden;
+    }
+
+    .premium-alert {
+        background-color: white;
+        padding: 1.5em;
+        text-align: center;
+    }
+    .premium-alert h3 {
+        margin-top: 0;
+        line-height: normal;
+        font-size: 21px;
+        margin-bottom: 8px;
+    }

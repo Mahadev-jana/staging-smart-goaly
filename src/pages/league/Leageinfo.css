@@ -1,0 +1,107 @@
+.pleague-top-player-box ul {
+    display: flex;
+    white-space: nowrap;
+    overflow-x: auto;
+    margin: 0;
+    padding: 0;
+}
+.pleague-top-player-box ul li {
+    display: inline-block;
+    white-space: normal;
+    list-style: none;
+    text-align: center;
+}
+
+.pleague-top-player-box ul li:nth-child(1) .ptop-player-box {
+    background: rgb(193,77,137);
+    background: linear-gradient(125deg, rgba(193,77,137,1) 45%, rgba(182,46,116,1) 45%);
+}
+.pleague-top-player-box ul li:nth-child(2) .ptop-player-box {
+    background: #E55465;
+    background: linear-gradient(125deg, #E96E7C 45%, #E55465 45%);
+}
+.pleague-top-player-box ul li:nth-child(3) .ptop-player-box {
+    background: #4D4FA9;
+    background: linear-gradient(125deg, #6869B6 45%, #4D4FA9 45%);
+}
+.pleague-top-player-box ul li:nth-child(4) .ptop-player-box {
+    background: #00BD62;
+    background: linear-gradient(125deg, #26C779 45%, #00BD62 45%);
+}
+.pleague-top-player-box ul li:nth-child(5) .ptop-player-box {
+    background: #CE6B89;
+    background: linear-gradient(125deg, #D5819B 45%, #CE6B89 45%);
+}
+
+.ptop-player-box { 
+    color: white;
+    padding: 0 25px 10px 25px;
+    position: relative;
+    width: 135px;
+    background: rgb(193,77,137);
+    background: linear-gradient(125deg, rgba(193,77,137,1) 45%, rgba(182,46,116,1) 45%);
+}
+.ptop-player-box-position {
+    position: absolute;
+    display: block;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 4px 6px;
+    letter-spacing: 1px;
+    left: 5px;
+    top: 5px;
+    font-size: 10px;
+    line-height: 10px;
+}
+.ptop-player-box-team {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 2px;
+    width: 32px;
+    height: 25px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.ptop-player-box-team::before {
+    content: '';
+    width: 0; 
+    height: 0; 
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-top: 6px solid white;
+    position: absolute;
+    bottom: -6px;
+}
+.ptop-player-box-team img {
+    max-width: 20px;
+}
+.ptop-player-box-pic {
+    margin-bottom: 5px;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background: white;
+}
+.ptop-player-box-score {
+    border: 2px solid white;
+    padding: 3px;
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 1;
+    margin-top: 10px;
+}
+/* .ptop-player-box-glass {
+    background-color: rgba(225, 225, 225, 0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+} */
